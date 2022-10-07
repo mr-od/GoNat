@@ -1,8 +1,9 @@
 package main
 
 import (
-	"a4chat/util/validation"
 	"flag"
+
+	"github.com/mr-od/a4chat/util/validation"
 
 	"github.com/gin-gonic/gin/binding"
 	log "github.com/sirupsen/logrus"
