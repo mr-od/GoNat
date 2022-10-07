@@ -3,9 +3,9 @@ package main
 import (
 	"flag"
 
-	"github.com/mr-od/a4chat/util/validation"
+	// "github.com/mr-od/a4chat/util/validation"
 
-	"github.com/gin-gonic/gin/binding"
+	// "github.com/gin-gonic/gin/binding"
 	log "github.com/sirupsen/logrus"
 )
 
@@ -20,6 +20,6 @@ func main() {
 
 	flag.Parse()
 
-	binding.Validator = validation.NewDefaultValidator()
+	// binding.Validator = validation.NewDefaultValidator()
 
 }
